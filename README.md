@@ -18,3 +18,39 @@ This repository contains several surface level scripts that are:
 - `zip_output.py` - This script zips the data and results for this project so that users can download it at a later date.
 - `project.ipynb` - Documentation on the prerequisites and structure of this repository.
 - `output.ipynb` - Documentation and code to reproduce the results shown in `report.pdf`.
+- `chrome-extension` - The documentation and code demonstrate the usage of a BERT model to perform real-time sentiment analysis through a Chrome extension.
+
+# Contributions
+
+Aidan Vickars
+
+    - Cleaned and standardized Sentiment 140 and NewsMTSC datasets
+    - Trained and Evaluated BERT model
+    - Wrote abstract
+    - Wrote proposal
+    - Wrote milestone
+    - Wrote report (and made all visualizations and tables)
+    - Scraped Twitter data from Twitter API
+    - Formulated submission readiness of repository (i.e. wrote output.ipynb and project.ipynb)
+
+
+Karthik Srinatha
+
+    - Scraped data from New york Times
+    - Lstm training and Evaluation Scripts
+    - Prepared presentation material
+    - Prepared Video
+    - Contribution in proposal
+    - Contribution in milestone report
+
+
+Anant Sunilam Awasthy
+
+    - Utilized Selenium and APIs to extract data and subsequently cleaned the Sentiment 140 and NewsMTSC datasets
+    - Trained and Evaluated LSTM model
+    - Contributed in proposal
+    - Contributed in milestone report
+    - Wrote the LSTM documentation that includes README file
+    - Improved the LSTM model performance and scores
+    - Contributed in report
+    - Developed a Chrome extension which utilizes a Flask API to determine whether a sentiment is positive or negative using BERT
