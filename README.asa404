@@ -1,0 +1,11 @@
+- Utilized Selenium and APIs to extract data and subsequently cleaned the Sentiment 140 and NewsMTSC datasets.
+- Train and Evaluated LSTM model
+- Contributed in proposal
+- Contributed in milestone report
+- Scraped Twitter data from Twitter API
+- linked and made basecode consistent for LSTM model  
+- wrote the LSTM documentation that includes README file.
+- improved the LSTM model performance and scores.
+- updated the the report with visualization graphs and scores for the improved LSTM model.
+- developed a Chrome extension which utilizes a Flask API to determine whether a sentiment is positive or negative. 
+- integrated the Flask application with a BERT model in order to make predictions about sentiments.

@@ -1,0 +1,39 @@
+{
+  "short_name": "Sentiment Analysis App",
+  "name": "Sentiment Analysis App using BERT Model",
+  "version": "1.0.0",
+  "manifest_version": 3,
+  "permissions": [
+    "storage",
+    "declarativeNetRequest",
+    "tabs",
+    "activeTab",
+    "declarativeContent",
+    "contextMenus",
+    "scripting"
+  ],
+  "action": {
+    "default_icon": "1.png",
+    "default_popup": "popup.html",
+    "default_title": "My Chrome Extension"
+  },
+  "icons": {
+    "16": "1.png",
+    "32": "1.png",
+    "48": "1.png",
+    "128": "1.png"
+  },
+  "content_security_policy": {
+    "extension_pages": "script-src 'self'; object-src 'self'; script-src-elem 'self' 'unsafe-inline' https://www.wsj.com/;"
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": ["*://*/*"],
+      "js": ["content_bert.js"]
+    }
+  ],
+  "host_permissions": ["http://127.0.0.1:5000/*"]
+}

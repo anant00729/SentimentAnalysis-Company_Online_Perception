@@ -1,0 +1,37 @@
+body {
+    width: 500px;
+}
+
+.app_logo {
+    width: 200px;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    gap: 10px;
+    padding: 8px;
+}
+
+button {
+    padding: 10px 16px;
+  background: #c00001;
+  border: 0 solid transparent;
+  border-radius: 4px;
+  font-size: 20px;
+  outline-color: transparent;
+  color: white;
+  cursor: pointer;
+    margin-top: 8px;
+}
+
+button:focus {
+    outline-width: 0;
+}
+
+label{
+    font-size: 24px;
+
+}

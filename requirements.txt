@@ -1,0 +1,24 @@
+pynytimes
+pandas
+tweepy
+jupyterlab
+torch
+torchvision
+torchaudio
+transformers
+datasets
+evaluate
+dataframe-image
+matplotlib
+scipy
+scikit-learn
+papermill
+numpy
+h5py
+# tensorflow-macos # REQUIRED IF RUNNING ON M1 MAC
+tensorflow # REQUIRED IF RUNNING ON REG CPU
+keras
+gdown
+flask
+# tensorflow-metal # REQUIRED IF RUNNING ON M1 MAC
+flask-cors

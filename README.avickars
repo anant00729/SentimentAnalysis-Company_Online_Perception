@@ -1,0 +1,8 @@
+- Clean and standardize Sentiment 140 and NewsMTSC datasets
+- Train and Evaluated BERT model
+- Wrote abstract
+- Wrote proposal
+- Wrote milestone
+- Wrote report (and made all visualizations and tables)
+- Scraped Twitter data from Twitter API
+- Formulated submission readiness of repository - i.e. wrote output.ipynb and project.ipynb
